@@ -1,5 +1,9 @@
-function Sidebar() {
-  return <div></div>;
-}
+// import { useState } from "react";
 
-export default Sidebar;
+// function Sidebar() {
+//   const [sidebar, setSidebar] = useState(false);
+//    const showSidebar = () => setSidebar(!sidebar);
+//   return <div></div>;
+// }
+
+// export default Sidebar;
