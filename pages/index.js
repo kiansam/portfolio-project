@@ -1,12 +1,15 @@
 import Head from "next/head";
+import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="h-screen bg-gray-50 overflow-hidden">
       <Head>
         <title>Portfolio</title>
       </Head>
-      <h1 className="text-2xl">Hi There!</h1>
+      <Navbar />
+      <Sidebar />
     </div>
   );
 }
