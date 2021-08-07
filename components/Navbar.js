@@ -79,7 +79,7 @@ function Navbar() {
           sidebar ? "-translate-y-0" : "-translate-y-full"
         }`}
       >
-        <div className="flex justify-between pt-4">
+        <div className="flex justify-between pt-4 pb-4">
           <div className="flex-start">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +103,7 @@ function Navbar() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-8 text-black delay-500 sm:animate-bounce"
+                className="h-8 w-8 text-black delay-500 sm:hover:animate-bounce"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -117,6 +117,23 @@ function Navbar() {
               </svg>
             </button>
           </div>
+        </div>
+        <div className="grid grid-cols-5 gap-6 items-center text-center pt-12">
+          <Link href="/">
+            <a className="col-start-2 col-span-3 sm:hover:bg-gray-100 rounded-full p-4">
+              About Me
+            </a>
+          </Link>
+          <Link href="/">
+            <a className="col-start-2 col-span-3 sm:hover:bg-gray-100 rounded-full p-4">
+              My Work
+            </a>
+          </Link>
+          <Link href="/">
+            <a className="col-start-2 col-span-3 sm:hover:bg-gray-100 rounded-full p-4">
+              Contact Me
+            </a>
+          </Link>
         </div>
       </div>
     </div>
