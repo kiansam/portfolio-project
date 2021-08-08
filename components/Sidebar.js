@@ -5,7 +5,8 @@ function Sidebar({ isOpen, toggle }) {
       isOpen={isOpen}
       onClick={toggle}
       className={`bg-white text-black w-screen space-y-6 py-4 px-4 absolute inset-y-0 right-0 transform  md:hidden -translate-y-full transition duration-500 ease-in-out z-50 ${
-        isOpen ? "-translate-y-0" : "-translate-y-full"
+        (isOpen ? "-translate-y-0" : "-translate-y-full",
+        isOpen ? "-translate-y-0" : "hidden")
       }`}
     >
       <div className="flex justify-between pt-4 pb-4">
