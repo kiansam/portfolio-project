@@ -1,15 +1,19 @@
 // import { emojihappy } from "@heroicons/react/outline";
 import Link from "next/link";
-import { useState } from "react";
+// import { useState } from "react";
 
 function Navbar({ toggle }) {
   // const [sidebar, setSidebar] = useState(false);
   // const showSidebar = () => setSidebar(!sidebar);
 
+const toggleHome = () => {
+   scroll.scrollToTop();
+}
+
   return (
     // <div className="relative min-h-screen">
 
-    <header className="sticky top-0 z-40 bg-white flex items-center p-4 px-8  md:py-4 shadow-2xl lg:px-16 xl:px-24">
+    <header className="sticky top-0 z-40 bg-white flex items-center p-4 px-8 md:py-4 shadow-2xl lg:px-16 xl:px-24">
       {/* Left Side */}
       <div className="flex items-center">
         <svg
@@ -31,7 +35,7 @@ function Navbar({ toggle }) {
       {/* Right Side */}
       <div className="justify-end flex-grow flex md:px-1">
         <div className="hidden md:flex">
-          <div className="block space-x-8 lg:space-x-0.5 items-center">
+          <div className="block space-x-8 lg:space-x-0.5 items-center select-none">
             <Link href="/">
               <a className="py-3 md:py-5 text-gray-600 transition duration-200 ease-in-out lg:hover:text-black lg:hover:bg-gray-200 rounded-lg lg:px-5">
                 About Me
@@ -50,7 +54,7 @@ function Navbar({ toggle }) {
           </div>
         </div>
 
-        <div className="flex justify-end md:hidden pr-4">
+        <div className="flex justify-end md:hidden pr-2">
           <button onClick={toggle} className="p-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +67,7 @@ function Navbar({ toggle }) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
-                d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
+                d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
               />
             </svg>
           </button>

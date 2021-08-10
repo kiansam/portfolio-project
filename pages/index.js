@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Body from "../components/Body";
 import Sidebar from "../components/Sidebar";
 import { useState } from "react";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,13 +12,14 @@ export default function Home() {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="h-screen bg-gray-50 overflow-hidden">
+    <div className="overflow-hidden">
       <Head>
         <title>Portfolio</title>
       </Head>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Body />
+      <Footer />
     </div>
   );
 }
