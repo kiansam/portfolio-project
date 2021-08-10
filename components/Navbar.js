@@ -1,14 +1,11 @@
 // import { emojihappy } from "@heroicons/react/outline";
 import Link from "next/link";
 // import { useState } from "react";
+import Fade from "react-reveal/Fade";
 
 function Navbar({ toggle }) {
   // const [sidebar, setSidebar] = useState(false);
   // const showSidebar = () => setSidebar(!sidebar);
-
-const toggleHome = () => {
-   scroll.scrollToTop();
-}
 
   return (
     // <div className="relative min-h-screen">
@@ -34,25 +31,27 @@ const toggleHome = () => {
 
       {/* Right Side */}
       <div className="justify-end flex-grow flex md:px-1">
-        <div className="hidden md:flex">
-          <div className="block space-x-8 lg:space-x-0.5 items-center select-none">
-            <Link href="/">
-              <a className="py-3 md:py-5 text-gray-600 transition duration-200 ease-in-out lg:hover:text-black lg:hover:bg-gray-200 rounded-lg lg:px-5">
-                About Me
-              </a>
-            </Link>
-            <Link href="/">
-              <a className="py-3 md:py-5 text-gray-600 transition duration-200 ease-in-out lg:hover:text-black lg:hover:bg-gray-200 rounded-lg lg:px-5">
-                My Work
-              </a>
-            </Link>
-            <Link href="/">
-              <a className="py-3 md:py-5 text-gray-600 transition duration-200 ease-in-out lg:hover:text-black lg:hover:bg-gray-200 rounded-lg lg:px-5">
-                Contact Me
-              </a>
-            </Link>
+        <Fade right ssrFadeout>
+          <div className="hidden md:flex">
+            <div className="block space-x-8 lg:space-x-0.5 items-center select-none">
+              <Link href="/">
+                <a className="py-3 md:py-5 text-gray-600 transition duration-200 ease-in-out lg:hover:text-black lg:hover:bg-gray-200 rounded-lg lg:px-5">
+                  About Me
+                </a>
+              </Link>
+              <Link href="/">
+                <a className="py-3 md:py-5 text-gray-600 transition duration-200 ease-in-out lg:hover:text-black lg:hover:bg-gray-200 rounded-lg lg:px-5">
+                  My Work
+                </a>
+              </Link>
+              <Link href="/">
+                <a className="py-3 md:py-5 text-gray-600 transition duration-200 ease-in-out lg:hover:text-black lg:hover:bg-gray-200 rounded-lg lg:px-5">
+                  Contact Me
+                </a>
+              </Link>
+            </div>
           </div>
-        </div>
+        </Fade>
 
         <div className="flex justify-end md:hidden pr-2">
           <button onClick={toggle} className="p-1">
