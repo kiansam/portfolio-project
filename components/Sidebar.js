@@ -47,18 +47,18 @@ function Sidebar({ isOpen, toggle }) {
         </div>
       </div>
       <div className="grid grid-cols-5 gap-6 items-center text-center pt-12">
-        <Link href="/">
-          <a className="col-start-2 col-span-3 transform duration-100 sm:hover:bg-gray-100 sm:hover:-translate-y-1 rounded-3xl p-4 motion-reduce:transition-none motion-reduce:transform-none cursor-pointer">
-            About Me
+        <Link href="about">
+          <a className="col-start-2 col-span-3 transform duration-100 rounded-3xl p-4 cursor-pointer">
+            About
           </a>
         </Link>
         <Link href="/">
-          <a className="col-start-2 col-span-3 transform duration-100 sm:hover:bg-gray-100 sm:hover:-translate-y-1 rounded-3xl p-4 motion-reduce:transition-none motion-reduce:transform-none cursor-pointer">
-            My Work
+          <a className="col-start-2 col-span-3 transform duration-10 rounded-3xl p-4 cursor-pointer">
+            Work
           </a>
         </Link>
         <Link href="/">
-          <a className="col-start-2 col-span-3 transform duration-100 sm:hover:bg-gray-100 sm:hover:-translate-y-1 rounded-3xl p-4 motion-reduce:transition-none motion-reduce:transform-none cursor-pointer tracking-wider">
+          <a className="col-start-2 col-span-3 transform duration-100  rounded-3xl p-4  cursor-pointer tracking-wider">
             Blog
           </a>
         </Link>
@@ -69,9 +69,9 @@ function Sidebar({ isOpen, toggle }) {
           onClick={toggle}
           spy={true}
           smooth={true}
-          className="col-start-2 col-span-3 transform duration-100 sm:hover:bg-gray-100 sm:hover:-translate-y-1 rounded-3xl p-4 motion-reduce:transition-none motion-reduce:transform-none cursor-pointer"
+          className="col-start-2 col-span-3 transform duration-100   rounded-3xl p-4 cursor-pointer"
         >
-          Contact Me
+          Contact
         </LinkS>
       </div>
     </div>
