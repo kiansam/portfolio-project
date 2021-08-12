@@ -10,7 +10,7 @@ function Navbar({ toggle }) {
   return (
     // <div className="relative min-h-screen">
 
-    <header className="sticky top-0 z-40 bg-white flex items-center p-4 px-8 md:py-4 shadow-2xl lg:px-16 xl:px-24">
+    <header className="sticky w-full top-0 z-40 lg:z-50 bg-white flex-none flex items-center p-4 px-8 md:py-4 lg:px-16 xl:px-24 shadow-sm">
       {/* Left Side */}
       <div className="flex items-center">
         <svg
@@ -33,19 +33,24 @@ function Navbar({ toggle }) {
       <div className="justify-end flex-grow flex md:px-1">
         <Fade right ssrFadeout>
           <div className="hidden md:flex">
-            <div className="block space-x-8 lg:space-x-0.5 items-center select-none">
+            <div className="block space-x-6 lg:space-x-0.5 items-center select-none">
               <Link href="/">
-                <a className="py-3 md:py-5 text-gray-600 transition duration-200 ease-in-out lg:hover:text-black lg:hover:bg-gray-200 rounded-lg lg:px-5">
+                <a className="py-3 md:py-5 text-gray-500 transition duration-200 ease-in-out lg:hover:text-black lg:px-5 font-semibold">
                   About Me
                 </a>
               </Link>
               <Link href="/">
-                <a className="py-3 md:py-5 text-gray-600 transition duration-200 ease-in-out lg:hover:text-black lg:hover:bg-gray-200 rounded-lg lg:px-5">
+                <a className="py-3 md:py-5 text-gray-500 transition-colors duration-200 ease-in-out lg:hover:text-black lg:px-5 font-semibold">
                   My Work
                 </a>
               </Link>
               <Link href="/">
-                <a className="py-3 md:py-5 text-gray-600 transition duration-200 ease-in-out lg:hover:text-black lg:hover:bg-gray-200 rounded-lg lg:px-5">
+                <a className="py-3 md:py-5 text-gray-500 transition-colors duration-200 ease-in-out lg:hover:text-black lg:px-5  font-semibold">
+                  Blog
+                </a>
+              </Link>
+              <Link href="/">
+                <a className="py-3 md:py-5 text-gray-500 transition duration-200 ease-in-out lg:hover:text-black lg:px-5 font-semibold">
                   Contact Me
                 </a>
               </Link>

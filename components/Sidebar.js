@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Link as LinkS } from "react-scroll";
 
 function Sidebar({ isOpen, toggle }) {
   return (
@@ -61,11 +62,17 @@ function Sidebar({ isOpen, toggle }) {
             Blog
           </a>
         </Link>
-        <Link href="/">
-          <a className="col-start-2 col-span-3 transform duration-100 sm:hover:bg-gray-100 sm:hover:-translate-y-1 rounded-3xl p-4 motion-reduce:transition-none motion-reduce:transform-none cursor-pointer">
-            Contact Me
-          </a>
-        </Link>
+        <LinkS
+          to="footer"
+          delay={200}
+          duration={500}
+          onClick={toggle}
+          spy={true}
+          smooth={true}
+          className="col-start-2 col-span-3 transform duration-100 sm:hover:bg-gray-100 sm:hover:-translate-y-1 rounded-3xl p-4 motion-reduce:transition-none motion-reduce:transform-none cursor-pointer"
+        >
+          Contact Me
+        </LinkS>
       </div>
     </div>
   );

@@ -16,8 +16,8 @@ export default function Home() {
       <Head>
         <title>Portfolio</title>
       </Head>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
       <Body />
       <Footer />
     </div>

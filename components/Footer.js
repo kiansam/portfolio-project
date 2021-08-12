@@ -6,7 +6,7 @@ import Jello from "react-reveal/Jello";
 
 function Footer() {
   return (
-    <footer className="bg-black text-gray-400 w-screen border-white border-l-8 border-r-8 p-4 block">
+    <footer id="footer" className="bg-black text-gray-400 w-screen border-white border-l-8 border-r-8 p-4 block">
       <div className="max-w-screen-lg xl:max-w-screen-xl mx-5 md:mx-auto my-5 flex">
         <Link href="/">
           <a className="hidden sm:flex">
@@ -30,7 +30,7 @@ function Footer() {
           {/* <li className="flex space-y-5 row-span-8 pb-6"> */}
 
           {/* </li> */}
-          <li className="space-y-5 row-span-2 pb-12 pr-8">
+          <li className="space-y-5 row-span-2 pb-12 pr-10">
             <h2 className="text-xs font-semibold tracking-wide text-white uppercase">
               Links
             </h2>
