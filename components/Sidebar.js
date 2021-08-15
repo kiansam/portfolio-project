@@ -46,19 +46,19 @@ function Sidebar({ isOpen, toggle }) {
           </button>
         </div>
       </div>
-      <div className="grid grid-cols-5 gap-6 items-center text-center pt-12">
+      <div className="grid grid-cols-5 gap-6 items-center text-center pt-12 text-gray-600 tracking-widest font-medium text-lg">
         <Link href="about">
-          <a className="col-start-2 col-span-3 transform duration-100 rounded-3xl p-4 cursor-pointer">
+          <a className="col-start-2 col-span-3 transform duration-100 rounded-3xl p-4 cursor-pointer transition-colors hover:text-black">
             About
           </a>
         </Link>
         <Link href="/">
-          <a className="col-start-2 col-span-3 transform duration-10 rounded-3xl p-4 cursor-pointer">
+          <a className="col-start-2 col-span-3 transform duration-10 rounded-3xl p-4 cursor-pointer transition-colors hover:text-black">
             Work
           </a>
         </Link>
         <Link href="/">
-          <a className="col-start-2 col-span-3 transform duration-100  rounded-3xl p-4  cursor-pointer tracking-wider">
+          <a className="col-start-2 col-span-3 transform duration-100  rounded-3xl p-4  cursor-pointer transition-colors hover:text-black">
             Blog
           </a>
         </Link>
@@ -69,7 +69,7 @@ function Sidebar({ isOpen, toggle }) {
           onClick={toggle}
           spy={true}
           smooth={true}
-          className="col-start-2 col-span-3 transform duration-100   rounded-3xl p-4 cursor-pointer"
+          className="col-start-2 col-span-3 transform duration-100   rounded-3xl p-4 cursor-pointer transition-colors hover:text-black"
         >
           Contact
         </LinkS>
