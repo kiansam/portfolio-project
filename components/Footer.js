@@ -38,31 +38,22 @@ function Footer() {
             </h2>
             <ul className="space-y-4">
               <li>
-                <Link href="">
-                  <a
-                    className="hover:text-white hover:underline transition-colors duration-200"
-                    target="_blank"
-                  >
+                <Link href="about">
+                  <a className="hover:text-white hover:underline transition-colors duration-200">
                     About
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="">
-                  <a
-                    className="hover:text-white hover:underline transition-colors duration-200"
-                    target="_blank"
-                  >
+                <Link href="work">
+                  <a className="hover:text-white hover:underline transition-colors duration-200">
                     Work
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="">
-                  <a
-                    className="hover:text-white hover:underline transition-colors duration-200"
-                    target="_blank"
-                  >
+                <Link href="blog">
+                  <a className="hover:text-white hover:underline transition-colors duration-200">
                     Blog
                   </a>
                 </Link>

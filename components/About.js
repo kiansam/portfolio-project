@@ -1,12 +1,11 @@
 import Image from "next/image";
-import Slide from "react-reveal/Slide";
-import Fade from "react-reveal/Fade";
+import Skills from "./Skills";
 
-function About() {
+function AboutComponent() {
   return (
     <div className="w-screen py-6 bg-gray-50 justify-center">
       <div className="block justify-center">
-        <div className="flex justify-center mb-12">
+        <div className="flex justify-center mb-16">
           <div className="mt-8 flex items-center justify-center bg-gradient-to-b from-purple-500 via-pink-500 to-blue-400 rounded-full w-[96px] h-[96px]">
             <div className="bg-white rounded-full p-[5px]">
               <img
@@ -18,12 +17,12 @@ function About() {
               />
             </div>
           </div>
-          <span className="mx-auto absolute translate-y-[134px] text-center font-medium text-xl">
+          <span className="mx-auto absolute translate-y-[134px] text-center font-medium text-xl mt-1">
             Kian Sam
           </span>
         </div>
-        <div className="px-8 sm:w-[568px] md:w-[748px] justify-center mx-auto mb-10">
-          <p className="sm:text-center">
+        <div className="px-8 xs:w-[468px] sm:w-[568px] md:w-[728px] justify-center mx-auto mb-10">
+          <p className="text-center">
             I'm a Frontend web developer, Social Media Manager, and content
             creator. I've been coding for over 3 years now. I'm currently
             working part-time as a social media manager for a company. I know
@@ -34,18 +33,17 @@ function About() {
             <hr className="w-80 black" />
           </div>
         </div>
-        <div className="flex justify-start ml-8 sm:ml-0 sm:justify-center">
-          <div className="w-[60%] md:w-[44%] lg:w-[38%] h-[4px] bg-gray-300 z-10">
-            <Fade left>
-              <div className="w-[88%] h-[4px] bg-pink-500 z-0"></div>
-            </Fade>
-          </div>
+        <div className="flex items-center justify-center w-screen mx-auto my-10">
+          <h2 className="font-medium text-3xl select-none">Skills</h2>
         </div>
+        <Skills title={"Frontend"} color={"bg-yellow-400"} width={"w-[85%] "} />
+        <Skills title={"ReactJS"} color={"bg-pink-500"} width={"w-[90%] "} />
+        <Skills title={"Adobe"} color={"bg-blue-500"} width={"w-[58%] "} />
       </div>
     </div>
   );
 }
 
-export default About;
+export default AboutComponent;
 
 //  border-8 border-white border-t-0 p-4
