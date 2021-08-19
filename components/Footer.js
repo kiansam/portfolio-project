@@ -8,11 +8,11 @@ function Footer() {
   return (
     <footer
       id="footer"
-      className="bg-black text-gray-400 w-screen border-white border-l-8 border-r-8 p-4 pt-24 block"
+      className="bg-black text-gray-400 w-screen border-white border-l-8 border-r-8 p-4 pt-24 block bottom-0"
     >
       <div className="max-w-screen-lg xl:max-w-screen-xl mx-5 md:mx-auto  flex my-auto">
         <div className="hidden sm:flex">
-          <svg
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             className="flex h-10 w-10 bg-gradient-to-l from-yellow-400 via-pink-500 to-blue-500 rounded-full text-gray-800 ml-2"
             fill="none"
@@ -25,7 +25,10 @@ function Footer() {
               strokeWidth={2}
               d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
             />
-          </svg>
+          </svg> */}
+          <h1 className="select-none h-10 w-10 font-mono font-black cursor-default flex justify-center tracking-tighter items-center tracking-tightest text-white text-2xl">
+            KS.
+          </h1>
         </div>
 
         <ul className="grid xs:grid-cols-1 sm:grid-cols-2 sm:mx-auto">

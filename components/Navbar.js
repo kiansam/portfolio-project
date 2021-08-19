@@ -16,7 +16,7 @@ function Navbar({ toggle }) {
       <div className="flex items-center">
         <Link href="/">
           <a>
-            <svg
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-8 w-8 md:h-9 md:w-9 transition duration-400 ease-in-out bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 rounded-full"
               fill="none"
@@ -29,7 +29,10 @@ function Navbar({ toggle }) {
                 strokeWidth={2}
                 d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
               />
-            </svg>
+            </svg> */}
+            <h1 className="select-none h-10 w-10 font-mono font-black text-2xl cursor-pointer flex justify-center tracking-tighter items-center tracking-tightest">
+              KS.
+            </h1>
           </a>
         </Link>
       </div>
@@ -44,7 +47,7 @@ function Navbar({ toggle }) {
                   About
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="work">
                 <a className="py-3 md:py-5 text-gray-500 transition-colors duration-200 ease-in-out md:hover:text-black lg:px-5 md:px-1 font-medium">
                   Work
                 </a>

@@ -10,6 +10,7 @@ module.exports = {
       ...defaultTheme.screens,
     },
     letterSpacing: {
+      tightest: "-.01em",
       widest: "0.2em",
     },
     extend: {},
