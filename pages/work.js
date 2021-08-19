@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar";
 import { useState } from "react";
 import WorkComponent from "../components/Work";
 
-function work() {
+function Work() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
@@ -20,4 +20,4 @@ function work() {
   );
 }
 
-export default work;
+export default Work;

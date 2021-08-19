@@ -18,4 +18,3 @@ function Skills({ title, color, width }) {
 }
 
 export default Skills;
-
