@@ -18,7 +18,7 @@ function WorkComponent() {
             <ProjectsLeft
               name={"Spotify Home-page Clone"}
               desc={
-                "Spotify home-page clone, using Nextjs, and Styled-components"
+                "Responsive Spotify home-page clone, using Nextjs, and Styled-components"
               }
               src={"/images/Spotify.png"}
               color={"bg-transparent"}
@@ -31,11 +31,13 @@ function WorkComponent() {
           <div className="flex justify-end pb-10">
             <ProjectsRight
               name={"Hulu/Imdb Clone"}
-              desc={"made using Nextjs, and tailwindcss. (themoviedb)"}
+              desc={
+                "Responsive Hulu/Imdb Clone, made using Nextjs, and tailwindcss. (themoviedb)"
+              }
               src={"/images/Hulu.png"}
               color={"bg-transparent"}
-              hover={"hover:bg-blue-500 hover:text-white"}
-              border={"border-blue-500"}
+              hover={"hover:bg-yellow-500 hover:text-white"}
+              border={"border-yellow-500"}
             />
           </div>
         </Fade>
@@ -44,12 +46,12 @@ function WorkComponent() {
             <ProjectsLeft
               name={"Disney-Plus Clone"}
               desc={
-                "Disney plus clone, using Reactjs, Styled-components, and Firebase"
+                "Responsive Disney plus clone, using Reactjs, Styled-components, and Firebase"
               }
               src={"/images/Disney.png"}
               color={"bg-transparent"}
-              hover={"hover:bg-yellow-500 hover:text-white"}
-              border={"border-yellow-500"}
+              hover={"hover:bg-blue-500 hover:text-white"}
+              border={"border-blue-500"}
             />
           </div>
         </Fade>
