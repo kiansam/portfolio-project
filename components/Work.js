@@ -22,13 +22,21 @@ function WorkComponent() {
               }
               src={"/images/Spotify.png"}
               color={"bg-transparent"}
-              hover={"hover:bg-black hover:text-white"}
+              hover={"hover:bg-pink-500 hover:text-white"}
+              border={"border-pink-500"}
             />
           </div>
         </Fade>
         <Fade right ssrFadeout duration={1000}>
           <div className="flex justify-end pb-10">
-            <ProjectsRight />
+            <ProjectsRight
+              name={"Hulu/Imdb Clone"}
+              desc={"made using Nextjs, and tailwindcss. (themoviedb)"}
+              src={"/images/Hulu.png"}
+              color={"bg-transparent"}
+              hover={"hover:bg-blue-500 hover:text-white"}
+              border={"border-blue-500"}
+            />
           </div>
         </Fade>
         <Fade left ssrFadeout duration={1000}>
@@ -40,7 +48,8 @@ function WorkComponent() {
               }
               src={"/images/Disney.png"}
               color={"bg-transparent"}
-              hover={"hover:bg-black hover:text-white"}
+              hover={"hover:bg-yellow-500 hover:text-white"}
+              border={"border-yellow-500"}
             />
           </div>
         </Fade>
