@@ -21,8 +21,8 @@ function WorkComponent() {
                 "Spotify home-page clone, using Nextjs, and Styled-components"
               }
               src={"/images/Spotify.png"}
-              color={"bg-blue-500"}
-              hover={"hover:bg-blue-400 "}
+              color={"bg-transparent"}
+              hover={"hover:bg-black hover:text-white"}
             />
           </div>
         </Fade>
@@ -42,11 +42,11 @@ function WorkComponent() {
             />
           </div>
         </Fade>
-        <Fade right ssrFadeout duration={1000}>
+        {/* <Fade right ssrFadeout duration={1000}>
           <div className="flex justify-end">
             <ProjectsRight />
           </div>
-        </Fade>
+        </Fade> */}
       </div>
     </div>
   );

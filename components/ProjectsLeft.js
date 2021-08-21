@@ -20,7 +20,7 @@ function ProjectsLeft({ name, src, desc, color, hover }) {
         <Link href="https://github.com/kiansam">
           <a target="_blank">
             <button
-              className={`transition-colors w-28 h-8 rounded-xl text-sm ${color} ${hover}`}
+              className={`transition-colors w-28 h-8 rounded-xl text-sm border-[1px] border-black ${color} ${hover}`}
             >
               Github
             </button>
