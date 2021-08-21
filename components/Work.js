@@ -34,11 +34,13 @@ function WorkComponent() {
         <Fade left ssrFadeout duration={1000}>
           <div className="pb-10">
             <ProjectsLeft
-              name={""}
-              desc={""}
-              src={""}
-              color={"bg-blue-500"}
-              hover={"hover:bg-blue-400 "}
+              name={"Disney-Plus Clone"}
+              desc={
+                "Disney plus clone, using Reactjs, Styled-components, and Firebase"
+              }
+              src={"/images/Disney.png"}
+              color={"bg-transparent"}
+              hover={"hover:bg-black hover:text-white"}
             />
           </div>
         </Fade>

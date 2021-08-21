@@ -12,7 +12,9 @@ function Sidebar({ isOpen, toggle }) {
     >
       <div className="flex justify-between pt-1 pb-4">
         <div className="flex pl-4">
-          {/* <svg
+          <Link href="/">
+            <a>
+              {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-8 w-8 bg-gradient-to-r from-green-400 to-blue-500 rounded-full"
             fill="none"
@@ -26,9 +28,11 @@ function Sidebar({ isOpen, toggle }) {
               d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
             />
           </svg> */}
-          <h1 className="select-none h-10 w-10 font-mono font-black text-2xl cursor-pointer flex justify-center tracking-tighter items-center tracking-tightest">
-            KS.
-          </h1>
+              <h1 className="select-none h-10 w-10 font-mono font-black text-2xl cursor-pointer flex justify-center tracking-tighter items-center tracking-tightest">
+                KS.
+              </h1>
+            </a>
+          </Link>
         </div>
         <div className="justify-end">
           <button onClick={toggle} className="flex justify-end pr-8 w-20">

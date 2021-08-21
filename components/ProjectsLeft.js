@@ -16,7 +16,7 @@ function ProjectsLeft({ name, src, desc, color, hover }) {
         </p>
         <img className="h-20 justify-end" src={src} alt="Project" />
       </div>
-      <div className="flex justify-end mr-5 xs:mt-3">
+      <div className="flex justify-end mr-[10px] mt-1 xs:mt-1 sm:mt-3">
         <Link href="https://github.com/kiansam">
           <a target="_blank">
             <button
