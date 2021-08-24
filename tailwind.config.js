@@ -13,7 +13,11 @@ module.exports = {
       tightest: "-.01em",
       widest: "0.2em",
     },
-    extend: {},
+    extend: {
+      backgroundImage: (theme) => ({
+        "back-svg": "url('/images/bg.svg')",
+      }),
+    },
   },
   variants: {
     extend: {},

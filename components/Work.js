@@ -5,7 +5,7 @@ import Projects from "./Projects";
 
 function WorkComponent() {
   return (
-    <div className="w-screen py-6 bg-gray-50 justify-center">
+    <div className="w-screen py-6 bg-gray-50 justify-center bg-back-svg mx-2">
       <div className="block justify-center">
         <div className="my-10">
           <h1 className="text-center text-4xl font-bold font-mono">
@@ -13,7 +13,7 @@ function WorkComponent() {
           </h1>
         </div>
       </div>
-      <div className="md:hidden my-12">
+      <div className="lg:hidden my-12">
         <Fade left ssrFadeout duration={1000}>
           <div className="pb-10">
             <ProjectsLeft
@@ -71,10 +71,49 @@ function WorkComponent() {
           </div>
         </Fade> */}
       </div>
-      <div className="hidden md:flex">
-        <Projects />
-        <Projects />
-        <Projects />
+      <div className="hidden lg:block my-12 mx-auto justify-center px-8 xl:px-12">
+        <Fade left ssrFadeout duration={1000}>
+          <div className="flex pb-5 justify-start">
+            <Projects
+              name={"Disney-Plus Clone"}
+              desc={
+                "Responsive Disney plus clone, using Reactjs, Styled-components, and Firebase"
+              }
+              src={"/images/Disney.png"}
+              color={"bg-transparent"}
+              hover={"hover:bg-blue-500 hover:text-white"}
+              border={"border-blue-500"}
+            />
+          </div>
+        </Fade>
+        <Fade left ssrFadeout duration={2000}>
+          <div className="flex pb-5 justify-center">
+            <Projects
+              name={"Disney-Plus Clone"}
+              desc={
+                "Responsive Disney plus clone, using Reactjs, Styled-components, and Firebase"
+              }
+              src={"/images/Disney.png"}
+              color={"bg-transparent"}
+              hover={"hover:bg-blue-500 hover:text-white"}
+              border={"border-blue-500"}
+            />
+          </div>
+        </Fade>
+        <Fade left ssrFadeout duration={3000}>
+          <div className="flex pb-5 justify-end">
+            <Projects
+              name={"Disney-Plus Clone"}
+              desc={
+                "Responsive Disney plus clone, using Reactjs, Styled-components, and Firebase"
+              }
+              src={"/images/Disney.png"}
+              color={"bg-transparent"}
+              hover={"hover:bg-blue-500 hover:text-white"}
+              border={"border-blue-500"}
+            />
+          </div>
+        </Fade>
       </div>
     </div>
   );
