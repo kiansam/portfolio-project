@@ -1,6 +1,7 @@
 import ProjectsLeft from "./ProjectsLeft";
 import ProjectsRight from "./ProjectsRight";
 import Fade from "react-reveal/Fade";
+import Projects from "./Projects";
 
 function WorkComponent() {
   return (
@@ -56,10 +57,24 @@ function WorkComponent() {
           </div>
         </Fade>
         {/* <Fade right ssrFadeout duration={1000}>
-          <div className="flex justify-end">
-            <ProjectsRight />
+          <div className="flex justify-end pb-10">
+            <ProjectsRight
+              name={"Hulu/Imdb Clone"}
+              desc={
+                "Responsive Hulu/Imdb Clone, made using Nextjs, and tailwindcss. (themoviedb)"
+              }
+              src={"/images/Hulu.png"}
+              color={"bg-transparent"}
+              hover={"hover:bg-yellow-500 hover:text-white"}
+              border={"border-yellow-500"}
+            />
           </div>
         </Fade> */}
+      </div>
+      <div className="hidden md:flex">
+        <Projects />
+        <Projects />
+        <Projects />
       </div>
     </div>
   );
