@@ -52,7 +52,7 @@ function Navbar({ toggle }) {
                   Work
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="blog">
                 <a className="py-3 md:py-5 text-gray-500 transition-colors duration-200 ease-in-out md:hover:text-black md:px-1 lg:px-5 font-medium">
                   Blog
                 </a>

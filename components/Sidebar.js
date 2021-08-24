@@ -64,7 +64,7 @@ function Sidebar({ isOpen, toggle }) {
             Work
           </a>
         </Link>
-        <Link href="/">
+        <Link href="blog">
           <a className="col-start-2 col-span-3 transform duration-100  rounded-3xl p-4  cursor-pointer transition-colors hover:text-black">
             Blog
           </a>
