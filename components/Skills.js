@@ -4,7 +4,7 @@ import Wave from "react-wavify";
 
 function Skills({ title, color, width }) {
   return (
-    <Fade bottom ssrFadeout duration={1000}>
+    <Fade bottom ssrFadeout duration={1500}>
       <div className="w-[70%] md:w-[60%] mx-auto shadow-md rounded-lg bg-gray-100 p-6 my-8 hover:shadow-xl transform transition-all duration-200 z-50">
         <div className="flex flex-col my-auto mx-auto">
           <span className="pb-2">{title}</span>

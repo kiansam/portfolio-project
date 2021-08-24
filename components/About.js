@@ -25,7 +25,7 @@ function AboutComponent() {
           <p className="text-center">
             I'm a Frontend web developer, Social Media Manager, and content
             creator. I've been coding for over 3 years now. I'm currently
-            working part-time as a social media manager for a company. I know
+            working part-time as a social media manager for a HVAC company. I know
             three languages, English, Persian, and Turkish professionally, and
             I'm learning Dutch right now.
           </p>

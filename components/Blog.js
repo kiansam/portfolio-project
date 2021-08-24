@@ -1,3 +1,4 @@
+import link from "next/link";
 import Blogcomponent from "./Blogcomponent";
 
 function Blog() {
@@ -13,6 +14,7 @@ function Blog() {
             desc={
               "HTML, CSS, and Javascript are the musts in Web Developement. So every Web Developer must have a basic understanding of HTML, CSS, and JavaScript. When you feel... "
             }
+            link={"blog/first"}
           />
         </div>
         <div>
@@ -21,6 +23,7 @@ function Blog() {
             desc={
               "HTML, CSS, and Javascript are the musts in Web Developement. So every Web Developer must have a basic understanding of HTML, CSS, and JavaScript. When you feel... "
             }
+            link={"blog/second"}
           />
         </div>
       </div>
