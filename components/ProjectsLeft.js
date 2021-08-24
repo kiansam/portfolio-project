@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function ProjectsLeft({ name, src, desc, color, hover, border }) {
   return (
-    <div className="w-[70%] xs:w-[65%] sm:w-[60%] py-4 border-[1px] border-black border-l-0 px-4 shadow-md rounded-lg -translate-x-[2px] transition-all duration-75 ease-in-out hover:shadow-2xl bg-white">
+    <div className="w-[70%] xs:w-[65%] sm:w-[50%] py-4 border-[1px] border-black border-l-0 px-4 shadow-md rounded-lg -translate-x-[2px] transition-all duration-75 ease-in-out hover:shadow-2xl bg-white">
       <h1 className="flex-1 text-lg mx-auto justify-center font-medium pb-1">
         {name}
       </h1>
