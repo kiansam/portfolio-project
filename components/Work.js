@@ -37,8 +37,8 @@ function WorkComponent() {
               }
               src={"/images/Hulu.png"}
               color={"bg-transparent"}
-              hover={"hover:bg-yellow-500 hover:text-white"}
-              border={"border-yellow-500"}
+              hover={"hover:bg-green-500 hover:text-white"}
+              border={"border-green-500"}
             />
           </div>
         </Fade>
@@ -56,20 +56,20 @@ function WorkComponent() {
             />
           </div>
         </Fade>
-        {/* <Fade right ssrFadeout duration={1000}>
+        <Fade right ssrFadeout duration={1000}>
           <div className="flex justify-end pb-10">
             <ProjectsRight
-              name={"Hulu/Imdb Clone"}
+              name={"My Portfolio"}
               desc={
-                "Responsive Hulu/Imdb Clone, made using Nextjs, and tailwindcss. (themoviedb)"
+                "Responsive portfolio made using, Nextjs, Tailwindcss, and react-reveal."
               }
-              src={"/images/Hulu.png"}
+              src={"/images/Kweb.png"}
               color={"bg-transparent"}
               hover={"hover:bg-yellow-500 hover:text-white"}
               border={"border-yellow-500"}
             />
           </div>
-        </Fade> */}
+        </Fade>
       </div>
       <div className="hidden lg:block my-12 mx-auto justify-center w-[50%]">
         <Fade left ssrFadeout duration={1500}>
