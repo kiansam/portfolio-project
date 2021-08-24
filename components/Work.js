@@ -23,8 +23,10 @@ function WorkComponent() {
               }
               src={"/images/Spotify.png"}
               color={"bg-transparent"}
-              hover={"hover:bg-pink-500 hover:text-white"}
-              border={"border-pink-500"}
+              hover={
+                "hover:bg-gradient-to-r from-pink-500 to-purple-500 hover:text-white"
+              }
+              border={"border-pink-500 hover:border-0"}
             />
           </div>
         </Fade>
@@ -37,8 +39,10 @@ function WorkComponent() {
               }
               src={"/images/Hulu.png"}
               color={"bg-transparent"}
-              hover={"hover:bg-green-500 hover:text-white"}
-              border={"border-green-500"}
+              hover={
+                "hover:bg-gradient-to-r from-green-500 to-yellow-300  hover:text-white"
+              }
+              border={"border-green-500 hover:border-0"}
             />
           </div>
         </Fade>
@@ -51,8 +55,10 @@ function WorkComponent() {
               }
               src={"/images/Disney.png"}
               color={"bg-transparent"}
-              hover={"hover:bg-blue-500 hover:text-white"}
-              border={"border-blue-500"}
+              hover={
+                "hover:bg-gradient-to-l from-green-400 to-blue-500 hover:text-white"
+              }
+              border={"border-blue-500  hover:border-0"}
             />
           </div>
         </Fade>
@@ -65,8 +71,10 @@ function WorkComponent() {
               }
               src={"/images/Kweb.png"}
               color={"bg-transparent"}
-              hover={"hover:bg-yellow-500 hover:text-white"}
-              border={"border-yellow-500"}
+              hover={
+                "hover:bg-gradient-to-r from-yellow-500 to-purple-400 hover:text-white"
+              }
+              border={"border-yellow-500 hover:border-0"}
             />
           </div>
         </Fade>
