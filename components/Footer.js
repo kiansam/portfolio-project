@@ -74,6 +74,7 @@ function Footer() {
                   <a
                     className="hover:text-white hover:underline transition-colors duration-200"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Instagram
                   </a>
@@ -84,6 +85,7 @@ function Footer() {
                   <a
                     className="hover:text-white hover:underline transition-colors duration-200"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Linked In
                   </a>
@@ -94,6 +96,7 @@ function Footer() {
                   <a
                     className="hover:text-white hover:underline transition-colors duration-200"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Twitter
                   </a>
@@ -104,6 +107,7 @@ function Footer() {
                   <a
                     className="hover:text-white hover:underline transition-colors duration-200"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Github
                   </a>
@@ -115,10 +119,10 @@ function Footer() {
       </div>
       <div className="group flex mx-auto text-center justify-center items-center py-2 mt-16 mb-8">
         <Jello ssrFadeout>
-          <h3 className="text-gray-500 text-xs select-none">Made With love </h3>{" "}
+          <h3 className="text-white text-xs select-none">Made With love </h3>{" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5 flex-shrink-0 px-1 group-hover:text-red-700 flex"
+            className="h-5 w-5 flex-shrink-0 px-1 text-white group-hover:text-red-600 flex"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -128,7 +132,7 @@ function Footer() {
               clipRule="evenodd"
             />
           </svg>
-          <h3 className="text-gray-500 text-xs select-none">
+          <h3 className="text-white text-xs select-none">
             by <i>KianSam</i>.
           </h3>
         </Jello>

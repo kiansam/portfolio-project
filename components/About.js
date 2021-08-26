@@ -6,18 +6,16 @@ function AboutComponent() {
     <div className="w-screen py-6 bg-gray-50 justify-center">
       <div className="block justify-center">
         <div className="flex justify-center mb-16">
-          <div className="mt-8 flex items-center justify-center bg-gradient-to-b from-purple-500 via-pink-500 to-blue-400 rounded-full w-[96px] h-[96px]">
-            <div className="bg-white rounded-full p-[5px]">
-              <img
-                src="/images/1.png"
-                className="rounded-full flex"
-                alt="Me"
-                width="80"
-                height="80"
-              />
-            </div>
+          <div className="mt-8 flex items-center justify-center rounded-full w-[96px] h-[96px] p-[1px] border-[4px] border-blue-400">
+            <Image
+              src="/images/1.png"
+              className="rounded-full"
+              alt="Me"
+              width={80}
+              height={80}
+            />
           </div>
-          <span className="mx-auto absolute translate-y-[134px] text-center font-medium text-xl mt-1">
+          <span className="mx-auto absolute translate-y-[134px] text-center font-medium text-xl mt-1 mb-1">
             Kian Sam
           </span>
         </div>
@@ -25,9 +23,9 @@ function AboutComponent() {
           <p className="text-center">
             I'm a Frontend web developer, Social Media Manager, and content
             creator. I've been coding for over 3 years now. I'm currently
-            working part-time as a social media manager for a HVAC company. I know
-            three languages, English, Persian, and Turkish professionally, and
-            I'm learning Dutch right now.
+            working part-time as a social media manager for a HVAC company. I
+            know three languages, English, Persian, and Turkish professionally,
+            and I'm learning Dutch right now.
           </p>
           <div className="flex justify-center mx-auto mt-6">
             <hr className="w-80 black" />

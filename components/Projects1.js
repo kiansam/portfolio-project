@@ -1,30 +1,28 @@
 import Link from "next/link";
 import Image from "next/image";
 
-function ProjectsRight({ name, src, desc, color, hover, border }) {
+function Projects1({ name, src, desc, color, hover, border }) {
   return (
-    <div className="w-[70%] xs:w-[65%] sm:w-[50%] py-5 border-[1px] border-black border-r-0 px-6 shadow-md rounded-lg translate-x-[2px] md:translate-x-0  hover:shadow-2xl bg-white">
+    <div className="w-[350px] xl:w-[450px] py-4 border-[1px] border-black  px-4 shadow-md rounded-lg transition-all duration-75 ease-in-out hover:shadow-2xl bg-white">
       <h1 className="flex-1 text-lg mx-auto justify-center font-medium pb-1">
         {name}
       </h1>
       <div className="flex m-1">
-        <div className="flex flex-col">
-          <Image
-            className="justify-start"
-            src={`${src}`}
-            alt="Project"
-            height={220}
-            width={360}
-          />
-        </div>
+        <Image
+          className="justify-start"
+          src={`${src}`}
+          alt="Project"
+          height={220}
+          width={360}
+        />
         <p
           className="items-center my-auto
-         justify-end p-[4px] pl-[12px] text-sm"
+         justify-end p-[4px] pl-[6px] text-sm"
         >
           {desc}
         </p>
       </div>
-      {/* <div className="flex justify-start ml-[20px] mt-1 xs:mt-1 sm:mt-3">
+      <div className="flex justify-start ml-[10px] xl:ml-[32px] mt-1 xs:mt-1 sm:mt-3">
         <Link href="https://github.com/kiansam">
           <a target="_blank" rel="noreferrer">
             <button
@@ -34,9 +32,9 @@ function ProjectsRight({ name, src, desc, color, hover, border }) {
             </button>
           </a>
         </Link>
-      </div> */}
+      </div>
     </div>
   );
 }
 
-export default ProjectsRight;
+export default Projects1;

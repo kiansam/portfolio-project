@@ -39,7 +39,7 @@ function Navbar({ toggle }) {
 
       {/* Right Side */}
       <div className="justify-end flex-grow flex md:px-1">
-        <Fade right ssrFadeout>
+        <Fade right ssrFadeout duration={1000}>
           <div className="hidden md:flex">
             <div className="block space-x-6 lg:space-x-0.5 items-center select-none">
               <Link href="about">

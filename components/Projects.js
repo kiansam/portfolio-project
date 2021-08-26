@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 function Projects({ name, src, desc, color, hover, border }) {
   return (
@@ -13,11 +14,17 @@ function Projects({ name, src, desc, color, hover, border }) {
         >
           {desc}
         </p>
-        <img className="h-20 justify-end" src={src} alt="Project" />
+        <Image
+          className="justify-end"
+          src={`${src}`}
+          alt="Project"
+          height={220}
+          width={360}
+        />{" "}
       </div>
-      <div className="flex justify-end mr-[11px] mt-1 xs:mt-1 sm:mt-3">
+      <div className="flex justify-end mr-[8px] xl:mr-[28px] mt-1 xs:mt-1 sm:mt-3">
         <Link href="https://github.com/kiansam">
-          <a target="_blank">
+          <a target="_blank" rel="noreferrer">
             <button
               className={`transition-colors w-28 h-8 rounded-xl text-sm border-[1px] ${border} ${color} ${hover}`}
             >
